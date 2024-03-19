@@ -1,4 +1,3 @@
-/* Dark theme for code blocks */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -6,20 +5,16 @@ table {
     border: 1px solid #dfe2e5;
     margin-bottom: 1rem;
 }
-
 th, td {
     padding: 6px 13px;
     border: 1px solid #dfe2e5;
 }
-
 th {
     background-color: #f1f8ff;
 }
-
 tbody tr:nth-of-type(odd) {
     background-color: #f8f9fa;
 }
-
 tbody tr:hover {
     background-color: #f1f8ff;
 }
@@ -110,30 +105,3 @@ pre code {
 .highlight .vi { color: #b5bd68 } /* Name.Variable.Instance */
 .highlight .vm { color: #b5bd68 } /* Name.Variable.Magic */
 .highlight .il { color: #b5bd68 } /* Literal.Number.Integer.Long */
-
-
-/*
-table {
-    border-collapse: collapse;
-    border: 1px solid #d1d5da; 
-    width: 100%;
-}
-
-th, td {
-    border: 1px solid #d1d5da;
-    padding: 8px; 
-    text-align: left; 
-}
-
-th {
-    background-color: #f6f8fa;
-}
-
-tr:nth-child(even) {
-    background-color: #f6f8fa; 
-}
-
-tr:hover {
-    background-color: #f1f8ff; 
-}
-*/
